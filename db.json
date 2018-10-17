@@ -1,73 +1,94 @@
-﻿{
-  "currentCompetition":
+{
+  "content": [
     {
-      "id": 1,
-      "date": "27-06-2018",
-      "timeBegin": "14:00",
-      "timeEnd": "19:00",
-      "competitionName": "Жара-2018",
-      "daysList": [
+      "id": 9,
+      "date": "2018-10-16",
+      "timeStart": "10:00",
+      "timeFinish": "23:00",
+      "competitionId": 4,
+      "version": 1,
+      "points": [
         {
-          "competitionID": 1,
-          "date": "27-06-2018",
-          "timeBegin": "14:00",
-          "timeEnd": "19:00",
-          "numericalNumber": 1,
-          "dayID": 1
+          "id": 13,
+          "name": "финиш",
+          "pointType": "FINISH",
+          "sequenceNumber": 3,
+          "version": 1,
+          "dayId": 9
         },
         {
-          "competitionID": 1,
-          "date": "28-06-2018",
-          "timeBegin": "14:00",
-          "timeEnd": "19:00",
-          "numericalNumber": 2,
-          "dayID": 2
+          "id": 14,
+          "name": "газ",
+          "pointType": "GAS",
+          "sequenceNumber": 2,
+          "version": 1,
+          "dayId": 9
+        },
+        {
+          "id": 15,
+          "name": "старт",
+          "pointType": "START",
+          "sequenceNumber": 1,
+          "version": 1,
+          "dayId": 9
         }
-      ],
-      "pointsList": [
+      ]
+    },
+    {
+      "id": 10,
+      "date": "2018-10-17",
+      "timeStart": "10:00",
+      "timeFinish": "23:00",
+      "competitionId": 4,
+      "version": 1,
+      "points": [
         {
-          "competitionID": 1,
-          "dayID": 1,
-          "name": "У горы",
-          "numericalNumber": 1
+          "id": 16,
+          "name": "финиш",
+          "pointType": "FINISH",
+          "sequenceNumber": 3,
+          "version": 1,
+          "dayId": 9
         },
         {
-          "competitionID": 1,
-          "dayID": 1,
-          "name": "Переезд",
-          "numericalNumber": 2
+          "id": 17,
+          "name": "газ",
+          "pointType": "GAS",
+          "sequenceNumber": 2,
+          "version": 1,
+          "dayId": 9
         },
         {
-          "competitionID": 1,
-          "dayID": 2,
-          "name": "У воды",
-          "numericalNumber": 1
-        },
-        {
-          "competitionID": 1,
-          "dayID": 2,
-          "name": "Заправка",
-          "numericalNumber": 2
+          "id": 18,
+          "name": "старт",
+          "pointType": "START",
+          "sequenceNumber": 1,
+          "version": 1,
+          "dayId": 9
         }
-      ],
-      "participantsList": [
-        {
-          "nfc": "123asfdf24",
-          "tShirtNumber": 12,
-          "firstName": "Николай",
-          "surname": "Звонов",
-          "level": "Middle",
-          "vehicle": "motorcycle"
-        },
-        {
-          "nfc": "123as5678",
-          "tShirtNumber": 11,
-          "firstName": "Константин",
-          "surname": "Иванов",
-          "level": "Profi",
-          "vehicle": "quard bike"
-        }
-      ],
-      "partiсipantsNumber": 2
+      ]
     }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true
+    },
+    "offset": 0,
+    "pageSize": 5,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalPages": 1,
+  "totalElements": 5,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true
+  },
+  "size": 5,
+  "number": 0,
+  "numberOfElements": 5
 }
